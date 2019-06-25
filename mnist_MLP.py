@@ -26,7 +26,7 @@ class MLP(chainer.Chain):
 	def __init__(self, h, d_out):
 		super(MLP, self).__init__(
 			liner1 = L.Linear(None, h),
-		  liner2 = L.Linear(None, h),
+			liner2 = L.Linear(None, h),
 			liner3 = L.Linear(None, d_out)
 	)
 																								        							
